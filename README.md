@@ -38,21 +38,6 @@ Technology Stack
 - Git & GitHub
 
 
-
-Project Structure
-src/
- └── com.revpassword
-     ├── main        -> MainApp (UI & flow)
-     ├── controller  -> UserController
-     ├── service     -> AuthService, UserService
-     ├── dao         -> UserDAO
-     ├── model       -> User, PasswordEntry, SecurityQuestion
-     └── util        -> DBConnection
-
-lib/
- └── ojdbc6.jar
-
-
 How to Run
 1. Import project into Eclipse
 2. Add ojdbc6.jar to Build Path
